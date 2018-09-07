@@ -70,6 +70,7 @@ AddEncoding gzip svgz
   RewriteEngine on
 
   RewriteCond %{HTTPS} !on
+  RewriteCond %{HTTP_HOST} ^adamstechky\.com$ [NC]
   RewriteCond %{HTTP_HOST} ^www\.adamstechky\.com*
   RewriteRule ^(.*)$ https://www.adamstechky.com/ [L,R=301]
 
