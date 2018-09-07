@@ -1,0 +1,17 @@
+<?php
+/**
+ * Implements hook_theme().
+ */
+function adams_tech_mailer_theme($existing, $type, $theme, $path) {
+  return [
+    'adams_tech_mailer_form' => [
+      'template' => 'adams-tech-mailer-form',
+      'render element' => 'form',
+    ]
+  ];
+}
+
+function adams_tech_mailer_page_attachments(array &$page) {
+  $page['#attached']['library'][] = 'adams_tech_mailer/adams_tech_mailer';
+}
+

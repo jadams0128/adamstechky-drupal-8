@@ -1,0 +1,40 @@
+paxton-bootstrap:
+  version: 1.x
+  css:
+    theme:
+      includes/bootstrap/css/bootstrap.min.css: {}
+  js:
+    includes/bootstrap/js/bootstrap.min.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal.ajax
+    - core/drupal
+    - core/drupalSettings
+    - core/jquery.once
+
+global-css:
+  Version: 1.x
+  css:
+    theme:
+      css/page.css: {}
+      css/style.min.css: {}
+      css/parallax-slider.css: {}
+      css/custom.css: {}
+      https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css: { type: external, minified: true }
+  js:  
+    js/jquery.isotope.min.js: {}
+    js/jquery.imagesloaded.js: {}
+    js/flexslider.js: {}
+    js/jquery.cslider.js: {}
+    js/slider.js: {}
+    js/jquery.fancybox.js: {}
+    js/jquery.gmap.min.js: {}
+    https://maps.googleapis.com/maps/api/js?key=AIzaSyCRDOJWrU294gIL6-wcN9xFn9W3kYZZEhI: {}
+    js/location.js: {} 
+    js/custom.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal.ajax
+    - core/drupal
+    - core/drupalSettings
+    - core/jquery.once 

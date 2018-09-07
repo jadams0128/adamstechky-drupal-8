@@ -1,0 +1,8 @@
+name: Adams Tech Mailer
+type: module
+description: Creates the custom functions for adamstechky.com
+package: Adams Tech
+core: 8.x
+
+libraries:
+  - admin_tech_mailer/admin_tech_mailer

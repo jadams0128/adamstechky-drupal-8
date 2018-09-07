@@ -1,0 +1,7 @@
+adams_tech_mailer:
+  version: 1.x
+  css:
+    theme:
+      assets/css/adams-tech-mailer.css: {}
+  js:
+    assets/js/adams-tech-mailer.js: {}
