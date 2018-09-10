@@ -1,7 +1,7 @@
 adams_tech_send_grid.form:
   path: '/adamstech/settings'
   defaults:
-    _form: '\Drupal\adams_tech_mailer\Form\adamsTechSendGridForm'
+    _form: '\Drupal\adams_tech_mailer\Form\AdamsTechSendGridForm'
     _title: 'Adams Tech Send Grid Settings'
   requirements:
     _permission: 'access adams tech send grid form'

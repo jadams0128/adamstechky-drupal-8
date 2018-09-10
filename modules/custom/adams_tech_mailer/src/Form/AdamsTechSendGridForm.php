@@ -2,7 +2,7 @@
 
 /**
 * @file
-* Contains \Drupal\adamstech\Form\adamsTechSendGridForm.
+* Contains \Drupal\adamstech\Form\AdamsTechSendGridForm.
 */
 
 namespace Drupal\adamstech\Form;
@@ -10,7 +10,7 @@ namespace Drupal\adamstech\Form;
 use Drupal\Core\Form\ConfigFormBase;
 use Drupal\Core\Form\FormStateInterface;
 
-class adamsTechSendGridForm extends ConfigFormBase {
+class AdamsTechSendGridForm extends ConfigFormBase {
 
   //Sets the form id
   public function getFormId() {
