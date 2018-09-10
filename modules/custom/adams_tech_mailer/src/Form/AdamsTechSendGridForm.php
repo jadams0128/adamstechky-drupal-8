@@ -2,10 +2,10 @@
 
 /**
 * @file
-* Contains \Drupal\adamstech\Form\AdamsTechSendGridForm.
+* Contains \Drupal\adams_tech_mailer\Form\AdamsTechSendGridForm.
 */
 
-namespace Drupal\adamstech\Form;
+namespace Drupal\adams_tech_mailer\Form;
 
 use Drupal\Core\Form\ConfigFormBase;
 use Drupal\Core\Form\FormStateInterface;
