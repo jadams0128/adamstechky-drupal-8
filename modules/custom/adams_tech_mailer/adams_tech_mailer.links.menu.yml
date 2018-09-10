@@ -1,0 +1,6 @@
+adams_tech_mailer.admin_config:
+  title: Adams Tech Send Grid
+  parent: system.admin_config_system
+  description: 'Administer Adams Technology Send Grid Mailer Settings'
+  route_name: adams_tech_send_grid.form
+  weight: 0

@@ -1,0 +1,4 @@
+'access adams tech send grid form':
+  title: 'Access Adams Tech Send Grid Form Page'
+  description: 'Gives the user access to the adams tech send grid form page.'
+  restrict access: true

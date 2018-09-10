@@ -101,9 +101,9 @@ class AdamsTechMailerForm extends FormBase {
   }
 
   public function sendEmail($name, $email, $subject, $message, $phone){
-    $url = 'https://api.sendgrid.com/';
-    $user = 'adams.jamie@adamstechky.com';
-    $pass = '!Julieann30!';
+    $url = \Drupal::config('adamstechSendGrid.settings')->get('sendgrid_url');
+    $user = \Drupal::config('adamstechSendGrid.settings')->get('sendgrid_username');
+    $pass = \Drupal::config('adamstechSendGrid.settings')->get('sendgrid_password');
     
     $json_string = array(
       'to' => array($user),
@@ -114,7 +114,7 @@ class AdamsTechMailerForm extends FormBase {
       'api_user'  => $user,
       'api_key'   => $pass,
       'x-smtpapi' => json_encode($json_string),
-      'to'        => 'adams.jamie@adamstechky.com',
+      'to'        => $user,
       'subject'   => $subject,
       'html'      => $this->HtmlBody($message, $name, $phone),
       'from'      => $email
